@@ -20,7 +20,7 @@ sudo snap install slack --classic
 sudo snap install postman --classic
 
 ## Install docker
-curl -o- https://raw.githubusercontent.com/rancher/install-docker/master/dist/20.10.7.sh | bash
+curl -o- https://raw.githubusercontent.com/rancher/install-docker/master/dist/24.0.7.sh | bash
 sudo usermod -aG docker $USER
 
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
