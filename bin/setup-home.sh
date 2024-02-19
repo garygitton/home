@@ -13,6 +13,7 @@ sudo apt-get install -y nautilus-image-converter
 sudo apt-get install -y liquidprompt
 sudo apt-get install -y sshpass
 sudo apt-get install -y aws-shell
+sudo apt-get install -y rename
 
 sudo snap install aws-cli --classic
 sudo snap install phpstorm --classic
