@@ -31,7 +31,7 @@ alias getnvm="curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11
 # Git
 alias gs="git status"
 alias gc="git commit -m"
-alias gcm="git checkout master"
+alias gcm="git checkout main || git checkout master"
 alias gfa="git fetch --all"
 alias grc="git rebase --continue"
 alias grs="git rebase --skip"
