@@ -20,6 +20,7 @@ sudo snap install aws-cli --classic
 sudo snap install phpstorm --classic
 sudo snap install slack --classic
 sudo snap install postman --classic
+sudo snap install discord --classic
 
 ## Install docker
 curl -o- https://raw.githubusercontent.com/rancher/install-docker/master/dist/24.0.7.sh | bash
