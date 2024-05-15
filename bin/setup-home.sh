@@ -22,6 +22,7 @@ sudo snap install phpstorm --classic
 sudo snap install slack --classic
 sudo snap install postman --classic
 sudo snap install discord --classic
+sudo snap install terraform --classic
 
 ## Install docker
 curl -o- https://raw.githubusercontent.com/rancher/install-docker/master/dist/24.0.7.sh | bash
@@ -32,10 +33,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ## Install NVM
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
-
-## Install LiquidPrompt
-mkdir -p ~/Softwares/
-git clone git@github.com:nojhan/liquidprompt.git ~/Softwares/liquidprompt
 
 ## Install FUSE
 sudo add-apt-repository universe
